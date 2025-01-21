@@ -6,7 +6,7 @@ import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Getter
-@ConfigurationProperties(prefix = "const.swagger-const")
+@ConfigurationProperties(prefix = "constant.swagger-const")
 @RequiredArgsConstructor
 @ToString
 public class SwaggerConst {

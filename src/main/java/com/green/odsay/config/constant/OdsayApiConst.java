@@ -6,11 +6,12 @@ import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Getter
-@ConfigurationProperties(prefix = "const.odsay-api-const")
+@ConfigurationProperties(prefix = "constant.odsay-api-const")
 @RequiredArgsConstructor
 @ToString
 public class OdsayApiConst {
     private final String baseUrl;
+    private final String searchPubTransPathUrl;
     private final String paramApiKeyName;
     private final String paramApiKeyValue;
     private final String paramStartLatName;
